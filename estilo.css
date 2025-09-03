@@ -1,0 +1,66 @@
+*{
+ text-align: center;
+    background-color: darkslategrey;
+}
+.titulos {
+  color: antiquewhite;
+}
+img{
+    border-radius: 50%;
+}
+p {
+  color: antiquewhite;
+}
+/* CODIGO COPIADO DE REFERENCIA PARA ANIMACIONES
+body {
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeSlideIn 1.2s ease-out 1s forwards;
+}
+@keyframes fadeSlideIn {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+*/
+
+#cara {
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeSlideIn 1.2s forwards;
+}
+@keyframes fadeSlideIn {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+#flecha {
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeSlideIn 1.2s ease-out 0.5s forwards;
+}
+@keyframes fadeSlideIn {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+
+.info {
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeSlideIn 1.2s ease-out 1.2s forwards;
+}
+@keyframes fadeSlideIn {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.enlace {
+  color: white;
+}
