@@ -27,7 +27,7 @@ body {
 
 #cara {
   opacity: 0;
-  transform: translateY(20px);
+  transform: translateY(3em);
   animation: fadeSlideIn 1.2s forwards;
 }
 @keyframes fadeSlideIn {
@@ -39,7 +39,7 @@ body {
 
 #flecha {
   opacity: 0;
-  transform: translateY(20px);
+  transform: translateY(3em);
   animation: fadeSlideIn 1.2s ease-out 0.5s forwards;
 }
 @keyframes fadeSlideIn {
@@ -52,7 +52,7 @@ body {
 
 .info {
   opacity: 0;
-  transform: translateY(20px);
+  transform: translateY(3em);
   animation: fadeSlideIn 1.2s ease-out 1.2s forwards;
 }
 @keyframes fadeSlideIn {
@@ -63,4 +63,15 @@ body {
 }
 .enlace {
   color: white;
+}
+
+
+@media (min-width: 601px) and (max-width: 1024px) {
+  body {
+    font-size: 2em;
+  }
+  #flecha {
+    width: 15%;
+    height: auto;
+  }
 }
